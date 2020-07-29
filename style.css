@@ -1,0 +1,91 @@
+ 
+.header .menu-bar .navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.nav-link{
+
+    font-size:20px;
+    color:#000 !important;
+    padding-right: 10px;
+    
+    }
+.menu-bar .navbar ul li .nav-link button
+    {
+        border-radius: 0.5cm;
+         text-align: center;
+        background-color: rgb(47, 80, 180);
+        color:#fff;
+    }
+.banner
+{
+    height:50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,00.5)),url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    padding-top:6em;
+}
+.top-head
+{
+    height: fit-content;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    border: 3px solid #fff;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(47, 80, 180);
+}
+.top-head #p2
+{
+    margin:20px;
+}
+.container .my-row2
+{
+    padding:3em;
+}
+a{
+     
+    display:block;
+     
+    transition:all 0.3s ease-in-out;
+}
+ a:hover{
+      color:#000;
+    }
+.active a{
+      color:#000;
+      border-bottom:3px solid #F38A8A;
+     }
+.container .my-row2 .my-col1
+{
+    background-color: beige;
+    height:fit-content;
+     border-radius: 0.5cm;
+}
+.my-row2  .my-col1
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.container .my-row2 .my-col2
+{
+    background-color:#fff;
+    padding:15px;
+    padding-right: 0;
+}
+
+.container .my-row2 .my-col1 ol li
+{
+    padding:11px;
+    color:blue;
+}
+
+.container .my-row2 .my-col2 ol li
+{
+    list-style:bold;
+    padding-bottom: 2em;
+    padding-block-end: 0cm;
+}
